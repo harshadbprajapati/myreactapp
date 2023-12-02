@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.profile-card{
+  margin: 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-photo {
+  border: 6px solid blueviolet;
+}
+
+.profile-name {
+  text-transform:uppercase;
+  font-size: 1.2rem;
+}
+
+.profiles{
+    display: flex;
+    flex-direction: row;
+}
+
