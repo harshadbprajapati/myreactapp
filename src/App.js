@@ -1,28 +1,11 @@
-import Profile from "./components/Profile";
+import RulesList from "./components/RulesList";
 
 function App() {
   return (
-    <div className='profiles'>
-      <Profile />
-      <Profile />
+    <div>
+      <RulesList />
     </div>
   );
 }
 
 export default App;
-
-
-// import LifeCycle from "./classcomponents/LifeCycle";
-
-// function App() {
-//   return (
-//     <div>
-//       Welcome to React
-//       <LifeCycle />
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
