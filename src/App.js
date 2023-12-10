@@ -1,9 +1,9 @@
-import RulesList from "./components/RulesList";
+import Profile from "./components/Profile";
 
 function App() {
   return (
     <div>
-      <RulesList />
+      <Profile/>
     </div>
   );
 }
