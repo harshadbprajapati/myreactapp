@@ -1,9 +1,9 @@
-import RulesList from "./components/RulesList";
+import TopicList from "./components/TopicList";
 
 function App() {
   return (
     <div>
-      <RulesList />
+      <TopicList />
     </div>
   );
 }

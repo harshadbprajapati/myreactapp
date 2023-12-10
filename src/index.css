@@ -34,3 +34,11 @@ code {
     flex-direction: row;
 }
 
+.topic-completed{
+  color: green;
+}
+
+.topic-incomplete{
+  color: red;
+}
+
