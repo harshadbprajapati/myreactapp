@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { sculptureList } from '../data/data';
 
 const Gallery = () => {
-  let index = 0;
+  const [index, setIndex] = useState(0)
   console.log("Gallery: index: " + index);
 
   function handleClick() {
-    index = index + 1;
+    setIndex(index+1);
     console.log("handleClick: index: " + index);
   }
 
