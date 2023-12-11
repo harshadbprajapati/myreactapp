@@ -2,7 +2,8 @@ import Gallery from "./components/Gallery";
 
 function App() {
   return (
-    <div>
+    <div className="page">
+      <Gallery />
       <Gallery />
     </div>
   );
