@@ -1,14 +1,34 @@
 import { useState } from "react";
 
+function getInTwoDigits(value) {
+  if (value < 10) {
+    value = "0" + value;
+  }
+  return value;
+}
+
+function getCurrentTime(){
+  const today = new Date();
+  const h = today.getHours();
+  const m = today.getMinutes();
+  const s = today.getSeconds();
+
+  return `${h}:${getInTwoDigits(m)}:${getInTwoDigits(s)}`
+}
+
 export default function Form() {
   const [answer, setAnswer] = useState("");
   const [error, setError] = useState(null);
   const [status, setStatus] = useState("typing");
+  console.log(getCurrentTime(),":");
+  console.log("\tanswer = ", answer);
+  console.log("\tstatus = ", status);
+  console.log("\terror = ", error);
 
   if (status === "success") {
     return <h1>That's right!</h1>;
   }
-
+  
   async function handleSubmit(e) {
     e.preventDefault();
     setStatus("submitting");
