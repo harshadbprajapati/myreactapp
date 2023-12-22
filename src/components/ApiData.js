@@ -13,6 +13,7 @@ const ApiData = () => {
       try {
         // Make an API request using Axios
         const response = await axios.get("https://jsonplaceholder.typicode.com/photos/1");
+        // const response = await axios.get("https://jsonplaceholder.typicode.coma/photos/1");
 
         // Update the state with the fetched data
         setData(response.data);
