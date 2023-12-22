@@ -45,6 +45,25 @@ const MyForm = () => {
             onChange={handleChange}
           />
         </div>
+        <div>
+          Gender:
+          <input
+            type="radio"
+            id="maleGender"
+            name="gender"
+            value="Male"
+            onChange={handleChange}
+          />
+          <label htmlFor="maleGender">Male</label>
+          <input
+            type="radio"
+            id="femaleGender"
+            name="gender"
+            value="Female"
+            onChange={handleChange}
+          />
+          <label htmlFor="femaleGender">Female</label>
+        </div>
 
         <button type="submit">Submit</button>
       </form>
@@ -52,6 +71,7 @@ const MyForm = () => {
         <h2>Form data</h2>
         <div>First Name: {state.firstName}</div>
         <div>Last Name: {state.lastName}</div>
+        <div>Gender: {state.gender}</div>
       </div>
     </div>
   );
