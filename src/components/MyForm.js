@@ -26,6 +26,7 @@ const MyForm = () => {
             type="text"
             id="firstName"
             name="firstName"
+            value={state.firstName}
             onChange={handleChange}
           />
         </div>
@@ -35,6 +36,7 @@ const MyForm = () => {
             type="text"
             id="lastName"
             name="lastName"
+            value={state.lastName}
             onChange={handleChange}
           />
         </div>
