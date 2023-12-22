@@ -1,15 +1,8 @@
 import React, { useState } from 'react';
 
-const allInterests = ['C', 'C++', 'Java', 'Python', 
-      'JavaScript', 'TypeScript', 'GoLang', 'Dart'];
 const initialState ={
   firstName: '',
   lastName: '',
-  gender: '',
-  knowsHindi: false,
-  knowsGujarati: false,
-  knowsEnglish: false,
-  interests: [],
 }
 const MyForm = () => {
   const [state, setState] = useState(initialState);
@@ -58,3 +51,5 @@ const MyForm = () => {
 }
 
 export default MyForm
+
+
