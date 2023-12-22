@@ -31,7 +31,7 @@ const MyForm = () => {
           />
         </div>
         <div>
-          <label htmlFor="lastName">First Name: </label>
+          <label htmlFor="lastName">Last Name: </label>
           <input
             type="text"
             id="lastName"
