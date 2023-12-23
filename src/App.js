@@ -1,9 +1,9 @@
-import ApiData from "./components/ApiData";
+import ApiDataWithScroll from "./components/ApiDataWithScroll";
 
 function App() {
   return (
     <div>
-      <ApiData />
+      <ApiDataWithScroll />
     </div>
   );
 }
