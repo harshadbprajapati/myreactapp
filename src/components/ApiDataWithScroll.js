@@ -12,6 +12,7 @@ const ApiDataWithScroll = () => {
 
   // Function to fetch data from the API
   const fetchData = async () => {
+    setData("");
     try {
       // Get the API URL from the input
       const apiUrl = apiUrlInputRef.current.value;
