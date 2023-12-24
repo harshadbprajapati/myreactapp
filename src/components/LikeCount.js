@@ -1,18 +1,22 @@
 import React from "react";
-import { withState } from "./withState";
+import CountComponent from "./CountComponent";
 const LikeCount = (props) => {
   return (
     <>
-      <div>Initial Likes = {props.initialCount}</div>
-      <div>
-        Likes: {props.count}{" "}
-        <button onClick={props.incrementCount}>Like</button>
-      </div>
+      <CountComponent
+        initialCount={props.initialCount}
+        render={({ count, incrementCount }) => (
+          <>
+            <div>Initial Likes Count: {props.initialCount}</div>
+            <div>
+              Likes: {count} <button onClick={incrementCount}>Like</button>
+            </div>
+          </>
+        )}
+      />
     </>
   );
 };
-const EnhancedLikesCount = withState(LikeCount);
-EnhancedLikesCount.displayName = "EnhancedLikesCount";
-export default EnhancedLikesCount;
 
+export default LikeCount;
 

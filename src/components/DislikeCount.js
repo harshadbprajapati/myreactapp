@@ -1,18 +1,23 @@
 import React from "react";
-import { withState } from "./withState";
-export const DislikeCount = (props) => {
+import CountComponent from "./CountComponent";
+const DislikeCount = (props) => {
   return (
     <>
-      <div>Initial Dislikes = {props.initialCount}</div>
-      <div>
-        Dislikes: {props.count}{" "}
-        <button onClick={props.incrementCount}>Dislike</button>
-      </div>
+      <CountComponent
+        initialCount={props.initialCount}
+        render={({ count, incrementCount }) => (
+          <>
+            <div>Initial Dislikes Count: {props.initialCount}</div>
+            <div>
+              Dislikes: {count} <button onClick={incrementCount}>Dislike</button>
+            </div>
+          </>
+        )}
+      />
     </>
   );
 };
-const EnhancedDisLikeCount = withState(DislikeCount);
-EnhancedDisLikeCount.displayName = "EnhancedDisLikeCount";
-export default EnhancedDisLikeCount;
+
+export default DislikeCount;
 
 
