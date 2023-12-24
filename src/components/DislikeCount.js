@@ -3,9 +3,8 @@ import CountComponent from "./CountComponent";
 const DislikeCount = (props) => {
   return (
     <>
-      <CountComponent
-        initialCount={props.initialCount}
-        render={({ count, incrementCount }) => (
+      <CountComponent initialCount={props.initialCount}>
+        {({ count, incrementCount }) => (
           <>
             <div>Initial Dislikes Count: {props.initialCount}</div>
             <div>
@@ -13,7 +12,7 @@ const DislikeCount = (props) => {
             </div>
           </>
         )}
-      />
+      </CountComponent>
     </>
   );
 };

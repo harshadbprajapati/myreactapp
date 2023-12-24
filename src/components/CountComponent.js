@@ -6,7 +6,7 @@ const CountComponent = (props) => {
       setCount((count) => count + 1);
     };
 
-    return props.render({ count, incrementCount});
+    return props.children({ count, incrementCount});
 }
 
 export default CountComponent;
