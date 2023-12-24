@@ -1,28 +1,14 @@
-import Profile from "./components/Profile";
+import LikeCount from "./components/LikeCount";
+import DislikeCount from "./components/DislikeCount";
 
 function App() {
   return (
-    <div className='profiles'>
-      <Profile />
-      <Profile />
+    <div>
+      <LikeCount initialCount={100} />
+      <DislikeCount initialCount={10} />
     </div>
   );
 }
 
 export default App;
-
-
-// import LifeCycle from "./classcomponents/LifeCycle";
-
-// function App() {
-//   return (
-//     <div>
-//       Welcome to React
-//       <LifeCycle />
-//     </div>
-//   );
-// }
-
-// export default App;
-
 
