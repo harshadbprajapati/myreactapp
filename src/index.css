@@ -34,3 +34,17 @@ code {
     flex-direction: row;
 }
 
+nav {
+  background-color: aquamarine;
+  padding: 16px 32px;
+}
+
+nav a {
+  margin-right: 16px;
+  padding: 16px 32px;
+}
+
+nav a:hover {
+  background-color: aliceblue;
+}
+
