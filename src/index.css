@@ -44,7 +44,6 @@ nav a {
   padding: 16px 32px;
 }
 
-nav a:hover {
-  background-color: aliceblue;
+nav .active {
+  background-color:chartreuse;
 }
-
