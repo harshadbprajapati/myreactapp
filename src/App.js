@@ -8,26 +8,26 @@ function App() {
     <div>
       <Routes>
         <Route element={<Navigation />}>
-          <Route path="/" element={<div>Home</div>} />
-          <Route path="/home" element={<div>Home</div>} />
-          <Route path="/about" element={<div>About</div>} />
-          <Route path="/teacher" element={<TeacherLayout />}>
+          <Route path="" element={<div>Home</div>} />
+          <Route path="home" element={<div>Home</div>} />
+          <Route path="about" element={<div>About</div>} />
+          <Route path="teacher" element={<TeacherLayout />}>
             <Route index element={<div>Teacher Overview</div>}></Route>
             <Route
-              path="/teacher/subjects"
+              path="subjects"
               element={<div>Teacher Subjects</div>}
             ></Route>
             <Route
-              path="/teacher/lectures"
+              path="lectures"
               element={<div>Teacher Lectures</div>}
             ></Route>
-            <Route path="/teacher/plan" element={<div>Teacher Plan</div>}></Route>
+            <Route path="plan" element={<div>Teacher Plan</div>}></Route>
           </Route>
-          <Route path="/admin" element={<AdminLayout />}>
+          <Route path="admin" element={<AdminLayout />}>
             <Route index element={<div>Admin Overview</div>}></Route>
-            <Route path="/admin/add-staff" element={<div>Add Staff</div>}></Route>
+            <Route path="add-staff" element={<div>Add Staff</div>}></Route>
             <Route
-              path="/admin/delete-staff"
+              path="delete-staff"
               element={<div>Delete Staff</div>}
             ></Route>
           </Route>

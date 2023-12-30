@@ -6,9 +6,9 @@ const TeacherNavigation = () => {
     <>
       <h2>Teacher's Dashboard</h2>
       <nav>
-        <Link to={"/teacher/subjects"}>Subjects</Link>
-        <Link to={"/teacher/lectures"}>Lectures</Link>
-        <Link to={"/teacher/plan"}>Plan</Link>
+        <Link to={"subjects"}>Subjects</Link>
+        <Link to={"lectures"}>Lectures</Link>
+        <Link to={"plan"}>Plan</Link>
       </nav>
     </>
   );
