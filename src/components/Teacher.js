@@ -9,7 +9,9 @@ const teacherInformation = [
 const Teacher = () => {
   const params = useParams();
   console.log("params=", params);
-  const currentTeacher = teacherInformation.find((teacher) => teacher.id === parseInt(params.teacherId));
+  const currentTeacher = teacherInformation.find(
+    (teacher) => teacher.id === parseInt(params.teacherId)
+  );
   console.log("currentTeacher=", currentTeacher);
 
   return (
