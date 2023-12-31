@@ -1,28 +1,17 @@
-import Profile from "./components/Profile";
+import React from "react";
+import { Provider } from "react-redux";
+import store from "./store/store";
+import Login from "./components/Login";
 
 function App() {
   return (
-    <div className='profiles'>
-      <Profile />
-      <Profile />
-    </div>
+    <Provider store={store}>
+      <div>
+        <h1>React-Redux Login App</h1>
+        <Login />
+      </div>
+    </Provider>
   );
 }
 
 export default App;
-
-
-// import LifeCycle from "./classcomponents/LifeCycle";
-
-// function App() {
-//   return (
-//     <div>
-//       Welcome to React
-//       <LifeCycle />
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
