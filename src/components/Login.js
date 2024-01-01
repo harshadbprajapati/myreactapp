@@ -27,11 +27,13 @@ const Login = ({ loggedInUsers, login, logout }) => {
         placeholder="Enter username"
         value={username}
         onChange={(e) => setUsername(e.target.value)}
-      />
-      {" "}
-      <button onClick={handleLogin}>Login</button>
-      {" "}
-      <button onClick={handleLogout}>Logout</button>
+      />{" "}
+      <button onClick={handleLogin} disabled={username.length < 1}>
+        Login
+      </button>{" "}
+      <button onClick={handleLogout} disabled={username.length < 1}>
+        Logout
+      </button>
       <div>
         <h3>Logged In Users:</h3>
         <ul>
