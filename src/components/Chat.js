@@ -1,14 +1,18 @@
 import React, { useState } from "react";
-import { connect } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { sendMessage } from "./../store/chat/actions";
 
-const Chat = ({ loggedInUsers, chatMessages, sendMessage }) => {
+const Chat = () => {
+  const loggedInUsers = useSelector((state) => state.loggedInUsers );
+  const chatMessages = useSelector((state) => state.chatMessages);
+  const dispatch = useDispatch();
+
   const [sender, setSender] = useState("");
   const [message, setMessage] = useState("");
 
   const handleSendMessage = () => {
     if (message && loggedInUsers.includes(sender) > 0) {
-      sendMessage(sender, message);
+      dispatch(sendMessage(sender, message));
       setMessage("");
     }
   };
@@ -40,13 +44,4 @@ const Chat = ({ loggedInUsers, chatMessages, sendMessage }) => {
   );
 };
 
-const mapStateToProps = (state) => ({
-  loggedInUsers: state.loggedInUsers,
-  chatMessages: state.chatMessages,
-});
-
-const mapDispatchToProps = (dispatch) => ({
-  sendMessage: (sender, message) => dispatch(sendMessage(sender, message)),
-});
-
-export default connect(mapStateToProps, mapDispatchToProps)(Chat);
+export default Chat;
