@@ -34,3 +34,6 @@ code {
     flex-direction: row;
 }
 
+.user-link{
+  cursor: pointer;
+}
