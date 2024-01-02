@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "url": "https://en.wikipedia.org/wiki/Tom_Cruise",
+      "birthDate": "3-July-1962",
+      "name": "Tom Cruise",
+      "occupation": "Actor"
+    },
+    {
+      "id": 2,
+      "url": "https://en.wikipedia.org/wiki/Will_Smith",
+      "birthDate": "25-Sep-1968",
+      "name": "Will Smith",
+      "occupation": "Actor"
+    },
+    {
+      "id": 3,
+      "url": "https://en.wikipedia.org/wiki/Keanu_Reeves",
+      "birthDate": "2-Sep-1964",
+      "name": "Keanu Reeves",
+      "occupation": "Actor"
+    },
+    {
+      "id": 4,
+      "url": "https://en.wikipedia.org/wiki/Brad_Pitt",
+      "birthDate": "18-Dec-1963",
+      "name": "Brad Pitt",
+      "occupation": "Actor"
+    }
+  ]
+}
