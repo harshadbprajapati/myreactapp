@@ -1,5 +1,3 @@
-// userReducer.js
-
 import {
   FETCH_USERS_REQUEST,
   FETCH_USERS_SUCCESS,

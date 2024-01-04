@@ -33,6 +33,7 @@ export const fetchUsers = () => {
     dispatch(fetchUsersRequest());
     try {
       const response = await axios.get("http://localhost:9999/users");
+      // const response = await axios.get("http://localhost:9999/user");
       dispatch(fetchUsersSuccess(response.data));
     } catch (error) {
       dispatch(fetchUsersFailure(error.message));

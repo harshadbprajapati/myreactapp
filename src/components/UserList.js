@@ -1,5 +1,3 @@
-// UserList.js
-
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchUsers, selectUser } from "./../store/users/actions";
