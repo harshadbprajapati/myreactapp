@@ -1,3 +1,120 @@
+# Project on use of React, Advanced React, React Router, and Read Redux
+
+>Do not use main branch for running the code.
+
+**Use the following branches to test various features of Spring Framework**
+
+> class-component-lifecyle
+>- It demonstrates lifecycle of class components.
+
+> fun-components
+>- It demonstrates writing and using functional components.
+
+> jsx
+>- It demonstrates using jsx.
+
+> jsx-js-in-jsx
+>- It demonstrates using JavaScript in jsx.
+
+> jsx-double-braces
+>- It demonstrates using double curly braces in jsx.
+
+> jsx-cond-render
+>- It demonstrates conditionally rendering jsx.
+
+> jsx-list-rendering
+>- It demonstrates rendering list using jsx.
+
+> state-nostate
+>- It demonstrates what happens without state.
+
+> state-usestate
+>- It demonstrates use of state.
+
+> state-multiple-states
+>- It demonstrates creating multiple state variables.
+
+> state-private-state
+>- It demonstrates each instance of component has private state.
+
+> form-quiz
+>- It demonstrates form submission.
+
+> form-quiz-log
+>- It demonstrates logging form status during user interaction.
+
+> form-controls
+>- It demonstrates handling form controls.
+
+> form-controls-all
+>- It demonstrates handling all form controls.
+
+> useeffect
+>- It demonstrates making API call in useeffect hook.
+
+> useref-scroll
+>- It demonstrates use of useref hook.
+
+> state-in-parent
+>- It demonstrates placing state in parent design pattern to control child components.
+
+> hoc-pattern
+>- It demonstrates higher order component design pattern.
+
+> render-prop-pattern
+>- It demonstrates render prop design pattern.
+
+> children-prop-pattern
+>- It demonstrates children prop design pattern.
+
+> router-first
+>- It demonstrates using react-router.
+
+> router-jsx
+>- It demonstrates writing routes using jsx.
+
+> router-navigation
+>- It demonstrates performing navigation using react router.
+
+> router-nested-routes
+>- It demonstrates creating nested using react router.
+
+> router-index-routes
+>- It demonstrates creating index routes using react router.
+
+> router-layout-routes
+>- It demonstrates creating layout routes using react router.
+
+> router-relative-paths
+>- It demonstrates using relative paths in Routes and in Navigation.
+
+> router-navigation-advanced
+>- It demonstrates use of NavLink for styling.
+
+> router-navigation-hooks
+>- It demonstrates use of hooks in react router.
+
+> statemgmt-usereducer 
+>- It demonstrates use of usereducer hooks for state management.
+
+> react-redux-login
+>- It demonstrates creating redux store to hold logged in users.
+
+> react-redux-config-store 
+>- It demonstrates use of new configure store API.
+
+> react-redux-multiple-reducers
+>- It demonstrates creating multiple reducers for a single store.
+
+> react-redux-hooks
+>- It demonstrates use of useSelector and useDispatch hooks.
+
+> react-redux-middleware-logger
+>- It demonstrates adding logger middleware in redux.
+
+> react-redux-middleware-thunk
+>- It demonstrates redux thunk middleware to perform async operations.
+  
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -14,57 +131,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
